@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocSophie Bluel - Architecte d'intérieur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../FrontEnd/assets/style.css">
+    <script src="../FrontEnd/assets/login.js" defer></script> 
+</head>
+<body>
+    <div class="container-general">
+        <header>
+            <h1>Sophie Bluel <span>ARCHITECTE D'INTÉRIEUR</span></h1>
+            <nav>
+                <ul>
+                    <li> <button type="button">projets</button></li>
+					<li><button type="button">contact</button></li>
+                    <li> <button type="button" class ="login-page" id="login-link" onclick="logInLogOut">login</button> </li>
+                    <li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="input">
+                <h2>Log In</h2>
+                <!--"form pour la partie connexion avec email et password"-->
+                <form class="form" action="#" method="post">
+                    <span id="messageInformation"></span>
+                    <label for="emailUser">E-mail</label>
+                    <input type="email" id="emailUser" placeholder="Email">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" autocomplete="on" placeholder="Password">
+                    <input type="submit" id="submit-connecter" value="Se connecter">
+                    <a class="forgot-password-link" href="#">Mot de passe oublié</a>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer class="footer-login">
+        <nav class="mention-legal">
+            <ul>
+                <li>Mentions Légales</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

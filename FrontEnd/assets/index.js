@@ -311,7 +311,7 @@ modalTrigger.forEach((trigger) =>
   trigger.addEventListener("click", toggleModal)
 );
 
-/**** class avec le toggle ****/
+/**** change le nom de la  class avec le toggle ****/
 function toggleModal() {
   modalContent1.classList.toggle("active");
   warning.style.display = "none";

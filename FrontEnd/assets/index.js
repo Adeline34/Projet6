@@ -326,7 +326,7 @@ function toggleModal() {
 modal1.addEventListener("click", function () { warning.style.display = "none"; });
 warning.innerHTML = " ";
 
-// la modale se ferme en clickant en dehors de la modale et pas de l'intérieur
+// la modale se ferme en cliquant en dehors de la modale et pas de l'intérieur
 modalContent1.addEventListener("click", (e) => { toggleModal(); });
 modalContent1.children[1].addEventListener("click", function (e) { e.stopPropagation(); });
 modalContent2.addEventListener("click", (e) => { toggleModal2(); });

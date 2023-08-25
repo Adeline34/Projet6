@@ -60,7 +60,7 @@ document.getElementById("emailUser").focus()
             }
         })
         
-        //  sauvegarde du token dans le "localStorage"
+        //  sauvegarde du token dans le "sessionStorage"
         .then(function (userInformation) {
             sessionStorage.setItem("token", userInformation.token);
             window.location.replace("./index.html");

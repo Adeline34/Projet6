@@ -449,7 +449,7 @@ validateContentForm.forEach((controle) =>
   })
 );
 
-// fonction d'envoie du nouveau projet dans la db de l'API
+// fonction d'envoie du nouveau projet de l'API
 function sendNewWork(e) {
   const formData = new FormData();
  //files[0]

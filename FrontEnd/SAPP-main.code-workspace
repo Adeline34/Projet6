@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Projet6-1",
+			"path": "../../Projet6-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SAPP-main"
+	}
+}
